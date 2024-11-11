@@ -1,0 +1,48 @@
+.latest_projects_container {
+    padding: 7vh 9vw 0 9vw;
+    background: #ffffff;
+    height: 100vh;
+}
+
+.projects_heading_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.projects {
+    width: 50vw;
+}
+
+.latest_projects_title {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Bai Jamjuree";
+    display: inline-block;
+}
+
+.latest_projects_description {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Bai Jamjuree";
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+}
+
+.latest_project_card_container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.latest_project_card {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    width: 50%;
+    height: 20vh;
+    background-color: #f3f2ef;
+    padding: 20px;
+}

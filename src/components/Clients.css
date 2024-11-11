@@ -1,0 +1,12 @@
+.client_section {
+    width: 80%;
+    height: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /* margin: -12.5vh 10vw 0 10vw;
+    display: flex; */
+    position: absolute;
+    top: 1.5vh;
+}

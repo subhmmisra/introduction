@@ -1,0 +1,146 @@
+.hero_section {
+    display: flex;
+    height: 120vh;
+    width: 100vw;
+    /* justify-content: space-between; */
+    background-image: url('../assests/images/icon.png');
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: 92% 50%;
+    background-color: #f3f2ef;
+    padding: 26vh 0 0 10vw
+}
+
+.name_astrisk_image {
+    padding: 4px 12px 0 0;
+    height: 15px
+}
+
+.name_container {
+    width: 50vw;
+}
+
+span {
+    display: flex;
+}
+
+.image_container {
+    width: 50vw;
+    background-repeat: no-repeat;
+    /* background-image: url("../assests/images/man.png"); */
+    margin: -20vh 0 0 3vw;
+    /* background-position: 0% 20%; */
+
+}
+
+.man_image {
+    height: 50rem;
+}
+
+.dev_name {
+    font-size: 9vh;
+    font-family: "Bai Jamjuree";
+    font-weight: 700;
+    justify-content: left;
+}
+
+.introduction_text {
+    color: #797979;
+    font-family: "Bai Jamjuree";
+}
+
+.lets_connect {
+    font-family: "Bai Jamjuree";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    padding: 2vh 1vw;
+    background-color: #ff6400;
+}
+
+.button_container {
+    margin-top: 8vh;
+}
+
+.view_projects {
+    font-family: "Bai Jamjuree";
+    font-weight: 700;
+    font-size: 15px;
+    color: #ff6400;
+    padding: 2vh 1vw;
+    border: 1px solid #ff6400;
+    background-color: white;
+    margin-left: 2vw;
+}
+
+.social_container {
+    margin-top: 60px;
+}
+
+.hr_line {
+    height: 1px;
+    width: 100px;
+    background-color: #797979;
+    margin: 14px 0 0 8px;
+}
+
+.social_icon {
+    height: 25px;
+    width: 25px;
+    margin: 0 12px 0 12px;
+}
+
+
+/* border: 1px solid #282c3f; */
+
+@media screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero_section {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dev_name {
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    .hero_section {
+        width: 100%;
+        background-image: none;
+        background-size: 100%;
+    }
+
+    .man_image {
+        height: 65vh;
+    }
+
+    .name_container {
+        width: 100%;
+        padding: 9vw 9vw 0 9vw;
+    }
+
+    .introduction_text {
+        text-align: justify;
+    }
+
+    .image_container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hr_line {
+        display: none;
+    }
+}
